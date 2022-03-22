@@ -1,0 +1,36 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google :
+            clientId: 1028317956608-ndb49e3j4heuofcl9l89t500d45l9b9m.apps.googleusercontent.com
+            clientSecret: BPwHOe7KQgs3jySp82ra4L5q
+  # data:
+  #   cassandra:
+  #     keyspace: main
+  #     username: gPhDZhlsbccBIrqrORhhMZPS
+  #     password: i09baGE-NxwwyGo.TgAlzBALWN3bb-0qTHC-t89D,Oi_zQTFLuAZg1hPLxNod1BEyyk3dyAekhLvtx9_IBRhRrQ+o54swDyIPtNT3OlUr_ojx9GSX49f4B0Sb1jmfXW3
+  #     schema-action: CREATE_IF_NOT_EXISTS
+#      local-datacenter: asia-south1
+      # request:
+      #   timeout: 10s
+      # connection:
+      #   connection-timeout: 10s
+      #   init-query-timeout: 10s
+      # contactpoints: something
+      # local-datacenter: datacenter1
+    
+
+# datastax.astra:
+#   secure-connect-bundle: connect-inbox-app.zip
+  
+  
+# astra:
+#   db:
+#     id: 142a8681-70d9-4a61-b41c-f2d5639fa2c9-1
+#     region: asia-south1
+#     keyspace: main
+#     application:
+#       token: AstraCS:gPhDZhlsbccBIrqrORhhMZPS:bd85646bb241540b4e9e3109a2a3cbbed1fca03226068f531021a2eb94febbf4
+  
